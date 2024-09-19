@@ -7,19 +7,15 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/hamzaansari09/ios-sdk"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Hamza Ansari" => "hamzaansari209@gmail.com" }
-  spec.source       = { 
-    http: "https://github.com/hamzaansari209/ios-sdk/releases/download/0.0.1/SurgeGrowth.xcframework.zip",
-    sha256: "558bf77d2d24980587ab12d67a5b6d6e6d3df47833d56c460d9681475928ed61"
-  }
+  spec.source       = { :http => "https://github.com/hamzaansari09/ios-sdk/releases/download/0.0.1/SurgeGrowth.xcframework.zip" }
 
   spec.swift_version = "5.7"
 
   # Specify platform compatibility
-  spec.ios.deployment_target = "12.2"  # Ensure deployment target is set for iOS 12.2+
-  spec.watchos.deployment_target = "6.2"
-  spec.osx.deployment_target = "10.15"
-  spec.visionos.deployment_target = "1.0"
+  spec.ios.deployment_target = "12.2"
+  # spec.watchos.deployment_target = "6.2"
+  # spec.osx.deployment_target = "10.15"
+  # spec.visionos.deployment_target = "1.0"
   
-  spec.vendored_frameworks = "binaries/SurgeGrowth.xcframework"
-
+  spec.ios.vendored_frameworks = "xcframeworks/SurgeGrowth.xcframework"
 end
