@@ -1,13 +1,13 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "SurgeGrowth"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of the SurgeGrowth binary framework"
   spec.description  = "A longer description of SurgeGrowth and its functionality"
   spec.homepage     = "https://github.com/hamzaansari09/ios-sdk"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Hamza Ansari" => "hamzaansari209@gmail.com" }
-  spec.source       = { :http => "https://github.com/hamzaansari09/ios-sdk/releases/download/0.0.1/SurgeGrowth.xcframework.zip" }
+  spec.source       = { :http => "https://github.com/hamzaansari09/ios-sdk/releases/download/0.0.2/SurgeGrowth.xcframework.zip" }
 
   spec.swift_version = "5.7"
 
